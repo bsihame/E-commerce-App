@@ -1,30 +1,32 @@
 import React from "react";
+import "./HomePage.css"
 
 const HomePage = () => {
-  return(
-    <div className="home-Page">
-      <div className="director-menu">
+  return (
+    <div className="home-page">
+      <h1>Welcome to my HomePage</h1>
+      <div className="directory-menu">
+
         <div className="menu-item">
           <div className="content">
             <h1 className="title">HATS</h1>
             <span className="subtitle">SHOP NOW</span>
           </div>
         </div>
-      </div>
 
-      <div className="menu-item">
+        <div className="menu-item">
           <div className="content">
             <h1 className="title">JACKETS</h1>
             <span className="subtitle">SHOP NOW</span>
           </div>
-      </div>
+        </div>
 
-      <div className="menu-item">
+        <div className="menu-item">
           <div className="content">
             <h1 className="title">SHOES</h1>
             <span className="subtitle">SHOP NOW</span>
           </div>
-      </div>
+        </div>
 
         <div className="menu-item">
           <div className="content">
@@ -39,7 +41,8 @@ const HomePage = () => {
             <span className="subtitle">SHOP NOW</span>
           </div>
         </div>
-   
+
+      </div>
     </div>
   )
 }
