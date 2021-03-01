@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import './App.css';
 
 import HomePage from './components/HomePage/HomePage';
+import ShopPage from "./components/Shop/ShopPage"
 
 const HatsPage = () => {
   return (
@@ -18,7 +19,7 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/hats" component={HatsPage} />
+        <Route path="/shop" component={ShopPage} />
       </Switch>
     </div>
   );
