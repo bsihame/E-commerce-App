@@ -1,12 +1,9 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import MenuItem from "../MenuItem/MenuItem"
 import "./Directory.scss"
 
 const Directory = () => {
-  // const [ id, setId ] = useState("")
-  // const [ image, setImageUrl ] = useState("");
-  // const [ title, setTitle ] = useState("")
-  // const displayInfoCard = () => {
+  
     const sections =[
       {
         title: 'hats',
@@ -36,19 +33,7 @@ const Directory = () => {
         id: 5
       }
     ];
-    //   sections.map(section=> {({title, imageUrl, id, size})
-    //     setId(section.id)
-    //     setTitle(section.title)
-    //     setImageUrl(section.imageUrl)
-    //   });
-    //   debugger
-
-    // }
-
-    // useEffect (() => {
-    //   displayInfoCard()
-    // });
-
+    
     return (
       <div className="directory-menu">
         { sections.map(({title, imageUrl, id, size})=>
